@@ -3,9 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"/>
     <title>Praveen Kumar Nirmalkar</title>
 </head>
 <body>
-    Praveen Kumar Nirmalkar
+  <!-- Navbar -->
+ 	<nav>
+		<h1>Praveen Kumar Nirmalkar</h1>
+		<ul class="navigation">
+			<li><a href="#about" class="nav-link">About</a></li>
+			<li><a href="#skills" class="nav-link">Skills</a></li>
+			<li><a href="#projects" class="nav-link">Projects</a></li>
+			<li><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+		<button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+	</nav>
+	
+  <!-- Main -->
+	<section class="main" id="about">
+		<img
+      src="images/pkn1.jpg"
+      alt="Praveen Kumar Nirmalkar"
+      loading="lazy"
+      class="hero-img"
+    />
+		<div class="bio">
+			<h2 class="bio-title">About Me</h2>
+			<p class="bio-text">
+				Commodo eiusmod fugiat consequat consectetur voluptate ea deserunt consequat ad aliquip aliquip et excepteur laboris magna in. Excepteur quis mollit aliqua minim in dolore ut pariatur commodo magna ad.
+			</p>
+		</div>
+	</section>
+	
+  <!-- More -->
+	<section class="more-about">
+		<h2>More About Me</h2>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+			nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+			autem deleniti cupiditate molestias quis unde quae totam porro dicta
+			iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+			nostrum dolor minus, libero delectus praesentium perferendis. Non culpa laboris labore sint incididunt ex commodo duis ut. Minim sunt proident ut ex pariatur minim in id exercitation. Occaecat non ex quis et reprehenderit dolor dolor sed qui qui velit cupidatat in consectetur quis aliqua irure.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+			consequuntur labore? Ea totam voluptas amet! Non officia laborum elit est excepteur laboris sint labore in. Fugiat quis proident eu culpa elit incididunt sed minim elit deserunt incididunt sit commodo ut consequat in nulla.
+		</p>
+	</section>
+
+  <!-- Contact -->
+	<section class="contact" id="contact">
+		<h2>Get In Touch With Me</h2>
+		<div class="contact-form-container">
+			<form action="https://formspree.io/f/xeqnaolg" method="POST">
+					<div class="form-control">
+						<label for="name">Name</label>
+						<input
+							type="text"
+							id="name"
+							name="sender-name"
+							placeholder="Enter Your Name"
+							class="input-field"
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="email">Email</label>
+						<input
+							type="email"
+							id="email"
+							name="sender-email"
+							placeholder="Enter Your Email"
+							class="input-field"
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="message">Message</label>
+						<textarea
+							id="message"
+							cols="60"
+							rows="10"
+							placeholder="Enter Your Message"
+							name="message"
+							class="input-field"
+							required
+						></textarea>
+					</div>
+					<input
+						type="submit"
+						value="Submit"
+						id="submit-btn"
+						class="submit-btn"
+					/>
+			</form>
+		</div>
+	</section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="copy">&copy; Copyright 2021</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://twitter.com/mepkn" target="_blank">
+       Praveen Kumar Nirmalkar
+      </a>
+    </p>
+  </footer>
+    
+	<!-- Social -->
+	<div class="socials">
+      <a href="https://twitter.com/mepkn" target="_blank">
+      	<img
+          src="icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"/>
+      </a>
+      <a href="https://www.facebook.com/mepkn" target="_blank">
+      	<img
+          src="icons/icons8-facebook-circled.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"/>
+      </a>
+      <a href="https://www.linkedin.com/in/mepkn" target="_blank">
+      	<img
+          src="icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"/>
+      </a>
+      <a href="https://github.com/mepkn/" target="_blank">
+      	<img src="icons/icons8-github.gif" 
+      	alt="Github"
+      	loading="lazy"
+      	class="socicon"/>
+      </a>
+    </div>
+
+    <!-- Scroll -->
+    <i class="scroll-up" id="scroll-up">
+    	<img
+        src="icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"/>
+    </i>
+
+  <script 
+  	src="js/main.js"
+  ></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 </body>
 </html>
